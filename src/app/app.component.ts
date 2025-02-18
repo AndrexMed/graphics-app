@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ScatterPlotComponentComponent } from './features/scatter-plot-component/scatter-plot-component.component';
+import { ScatterPlotComponent } from './features/scatter-plot-component/scatter-plot.component';
 
 @Component({
   selector: 'app-root',
-  imports: [ScatterPlotComponentComponent],
+  imports: [ScatterPlotComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
